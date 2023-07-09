@@ -18,7 +18,7 @@ body{
     justify-content: space-evenly;
 }
 .main1{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Popins', serif;
     font-size: 80px;
 }
 .main2{
@@ -32,7 +32,7 @@ body{
   gap: 125px;
 }
 #head_inside1{
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(255, 255, 255);
     font-size: 30px;
 }
@@ -41,8 +41,15 @@ body{
     .head{
         display: flex;
         flex-direction:column;
+        background-color:#ECE5C7;
+        border: 5px solid #ECE5C7;
         height:500px;
         align-items: flex-start;
+    }
+    #head_inside1{
+        background-color: #887c67;
+        border: 5px solid #887c67;
+        border-radius:20px;
     }
     #head_inside2{
         background-color: rgb(224, 172, 31);
@@ -64,7 +71,7 @@ body{
         font-size: 50px;
     }
     .main2{
-        width: 200px;
+        flex-basis: 200px;
     }
     
 }
